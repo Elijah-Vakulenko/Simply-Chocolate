@@ -12,8 +12,11 @@ ul {
 .header-section {
 }
 .logo {
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .italic-title {
+  font-style: italic;
 }
 .menu {
 }
@@ -24,9 +27,26 @@ ul {
 /* <!-- 1 SECTION 1 - HERO --> */
 .hero {
 }
+
+.hero-container {
+  display: flex;
+  padding: 381px 40px 40px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(17, 17, 17, 0.6);
+}
+
 .main-title {
 }
 .buy {
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background: #fd9222;
 }
 /* <!-- 2 SECTION 2 - PREFERENCES --> */
 .section {
@@ -51,9 +71,17 @@ ul {
 .container {
 }
 .section-title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.16;
+  /* letter-spacing: ; */
+  text-transform: uppercase;
 }
 
 .orange-title {
+  color: #fd9222;
 }
 
 .ingr-list {
