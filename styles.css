@@ -1,9 +1,42 @@
-* body {
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
   background-color: #fafafa;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
   list-style-type: none;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
 }
 
 .container {
@@ -165,6 +198,9 @@ ul {
 
 .footer-or-title {
   color: #fd9222;
+}
+
+.contacts {
 }
 
 .container {
