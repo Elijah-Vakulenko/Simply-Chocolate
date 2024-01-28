@@ -56,19 +56,59 @@ img {
 /* <!-- HEADER --> */
 .header-section {
 }
+
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
   text-transform: uppercase;
   text-decoration: none;
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .italic-title {
   font-style: italic;
 }
-.menu {
+
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
 .menu-item {
 }
+
+.soc-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
 .soc-icon {
 }
+
 /* <!-- 1 SECTION 1 - HERO --> */
 .hero {
 }
@@ -170,27 +210,77 @@ img {
 
 /* <!-- 3 SECTION 3 - INGREDIENTS --> */
 .igr-section {
+  margin-top: 120px;
 }
 .container {
 }
+
 .section-title {
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.16;
   /* letter-spacing: ; */
   text-transform: uppercase;
+  width: 412px;
 }
 
 .orange-title {
   color: #fd9222;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.igr-top {
+  display: flex;
+  width: 486px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.ingr-text {
+  text-align: center;
 }
 
 .ingr-list {
+  display: flex;
+  width: 1136px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px 32px;
+  flex-wrap: wrap;
 }
+
 .ingr-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 260px;
+  height: 270px;
+  padding: 0 23px 0;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #fd9222;
+  background: #fff;
+  gap: 36px;
 }
+
+.ingr-title {
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
 /* <!-- 4 SECTION 4 - HOW IT'S MADE? --> */
 .him-section {
 }
