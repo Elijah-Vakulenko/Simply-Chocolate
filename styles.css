@@ -121,6 +121,15 @@ img {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(17, 17, 17, 0.6);
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(./img/chocolate_main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-title {
@@ -290,6 +299,25 @@ img {
 }
 .him-list {
 }
+
+.him-item {
+  display: flex;
+  gap: 8px;
+}
+
+.him-item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  border-radius: 50%;
+  box-shadow: inset 0 0 2px 1px #eceded;
+  display: block;
+}
+.him-item {
+}
+
 /* <!-- 5 SECTION 5 - OUR PRODUCTS --> */
 .products-section {
 }
