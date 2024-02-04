@@ -170,15 +170,25 @@ img {
   color: #fff;
 }
 
+.scroll-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
 .scroll {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   width: 38px;
   height: 38px;
   background-color: #fff;
   font-weight: 500;
   letter-spacing: -0.42px;
-  margin-left: 585px;
+ 
 }
 
 .scroll-text {
