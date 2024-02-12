@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -27,9 +26,11 @@
         <div class="logo-menu">
           <nav>
             <ul class="menu">
-              <li class="menu-item">Home</li>
-              <li class="menu-item">How it's made?</li>
-              <li class="menu-item">Chocolate is loved</li>
+              <li class="menu-item"><a class="menu-link">Home</a></li>
+              <li class="menu-item"><a class="menu-link">How it's made?</a></li>
+              <li class="menu-item">
+                <a class="menu-link">Chocolate is loved</a>
+              </li>
             </ul>
           </nav>
           <ul class="soc-list">
@@ -64,19 +65,15 @@
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <div class="click">
-            <button type="button" class="buy">Buy now</button>
-            <a class="but-him" href="#">How it's made</a>
-          </div>
-          <div>
-            <p class="scroll-text">scroll down</p>
-            <a class="scroll" href="#"
-              ><svg class="scroll-icon" width="22" height="22">
-                <use
-                  href="./img/icons/icons.svg#icon-fi-rr-angle-small-left"
-                ></use></svg
-            ></a>
-          </div>
+          <button type="button" class="buy-now">Buy now</button>
+          <a class="btn-him" href="#">How it's made</a>
+          <a href="" class="scroll-down"
+            >scroll down
+            <svg class="scroll-icon" width="22" height="22">
+              <use
+                href="./img/icons/icons.svg#icon-fi-rr-angle-small-left"></use>
+            </svg>
+          </a>
         </div>
       </section>
 
@@ -141,8 +138,7 @@
                 src="./img/ingredients/img-1.png"
                 alt="milk chocolate"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">MILK CHOCOLATE</h3>
             </li>
             <li class="ingr-card">
@@ -150,8 +146,7 @@
                 src="./img/ingredients/img-2.png"
                 alt="milk"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">MILK</h3>
             </li>
             <li class="ingr-card">
@@ -159,8 +154,7 @@
                 src="./img/ingredients/img-3.png"
                 alt="nuts"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">NUTS</h3>
             </li>
             <li class="ingr-card">
@@ -168,8 +162,7 @@
                 src="./img/ingredients/img-4.png"
                 alt="semi-sweet chocolate"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">SEMI - SWEET CHOCOLATE</h3>
             </li>
             <li class="ingr-card">
@@ -177,8 +170,7 @@
                 src="./img/ingredients/img-5.png"
                 alt="cacao"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">CACAO</h3>
             </li>
             <li class="ingr-card">
@@ -186,8 +178,7 @@
                 src="./img/ingredients/img-6.png"
                 alt="raspberry"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">RASPBERRY</h3>
             </li>
             <li class="ingr-card">
@@ -195,8 +186,7 @@
                 src="./img/ingredients/img-7.png"
                 alt="coconut oil"
                 width="214"
-                height="160"
-              />
+                height="160" />
               <h3 class="ingr-title">COCONUT OIL</h3>
             </li>
           </ul>
@@ -210,46 +200,51 @@
           <h2 class="section-title">
             HOW IT’S <span class="orange-title">made?</span>
           </h2>
-          <img
-            src="./img/image.jpg"
-            alt="melted chocolate"
-            width="600"
-            height="400"
-          />
-          <h3>
-            Try our chocolates today and discover the perfect balance of flavor
-          </h3>
-          <ul class="him-list">
-            <li>
-              <p class="him-item">
-                Heat the milk in a saucepan without bringing it to a boil. Add
-                sugar and cocoa powder.
+          <div class="him-content">
+            <img
+              src="./img/image.jpg"
+              alt="melted chocolate"
+              width="600"
+              height="400" />
+            <div class="him-title_list">
+              <p class="him-list-title">
+                Try our chocolates today and discover the perfect balance of
+                flavor
               </p>
-            </li>
-            <li>
-              <p class="him-item">
-                At the same time, prepare a water bath. Melt the butter on it.
-              </p>
-            </li>
-            <li>
-              <p class="him-item">
-                "Mix" the milk mixture and already liquid butter. Mix thoroughly
-                with a silicone spatula so that the mass becomes uniform and
-                silky.
-              </p>
-            </li>
-            <li>
-              <p class="him-item">
-                Heat the mixture over low heat, letting it barely boil.
-              </p>
-            </li>
-            <li>
-              <p class="him-item">
-                Pour the chocolate into special containers (can be replaced with
-                ice molds). Allow to cool and harden.
-              </p>
-            </li>
-          </ul>
+              <ul class="him-list">
+                <li>
+                  <p class="him-item">
+                    Heat the milk in a saucepan without bringing it to a boil.
+                    Add sugar and cocoa powder.
+                  </p>
+                </li>
+                <li>
+                  <p class="him-item">
+                    At the same time, prepare a water bath. Melt the butter on
+                    it.
+                  </p>
+                </li>
+                <li>
+                  <p class="him-item">
+                    "Mix" the milk mixture and already liquid butter. Mix
+                    thoroughly with a silicone spatula so that the mass becomes
+                    uniform and silky.
+                  </p>
+                </li>
+                <li>
+                  <p class="him-item">
+                    Heat the mixture over low heat, letting it barely boil.
+                  </p>
+                </li>
+                <li>
+                  <p class="him-item">
+                    Pour the chocolate into special containers (can be replaced
+                    with ice molds). Allow to cool and harden.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -266,8 +261,7 @@
                 src="./img/products/img-1.jpg"
                 alt="orange dark chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>orange</h3>
               <p>Dark chocolate</p>
               <button type="button" class="price">45 UAH</button>
@@ -277,8 +271,7 @@
                 src="./img/products/img-2.jpg"
                 alt="apple and cranberry chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>APPLE&CRANBERRY</h3>
               <p>Milk chocolate</p>
               <button type="button" class="price">50 UAH</button>
@@ -288,8 +281,7 @@
                 src="./img/products/img-3.jpg"
                 alt="lime and salt chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>lime&sea salt</h3>
               <p>Dark chocolate</p>
               <button type="button" class="price">66 UAH</button>
@@ -299,8 +291,7 @@
                 src="./img/products/img-4.jpg"
                 alt="pineapple chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>pineapple</h3>
               <p>Dark chocolate</p>
               <button type="button" class="price">54 UAH</button>
@@ -310,8 +301,7 @@
                 src="./img/products/img-5.jpg"
                 alt="classic milk chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>Classic</h3>
               <p>Milk chocolate</p>
               <button type="button" class="price">45 UAH</button>
@@ -321,8 +311,7 @@
                 src="./img/products/img-6.jpg"
                 alt="honey flavor chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>honey</h3>
               <p>Milk chocolate</p>
               <button type="button" class="price">50 UAH</button>
@@ -332,8 +321,7 @@
                 src="./img/products/img-7.jpg"
                 alt="fruit chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>Roasted fruits</h3>
               <p>Dark chocolate</p>
               <button type="button" class="price">66 UAH</button>
@@ -343,8 +331,7 @@
                 src="./img/products/img-8.jpg"
                 alt="white chocolate"
                 width="230"
-                height="201"
-              />
+                height="201" />
               <h3>Classic</h3>
               <p>White chocolate</p>
               <button type="button" class="price">54 UAH</button>
@@ -366,8 +353,7 @@
                 src="./img/chocolate-nuts.jpg"
                 alt="chocolate with nuts"
                 width="368"
-                height="464"
-              />
+                height="464" />
               <h3>CHOCOLATE WITH NUTS</h3>
             </li>
             <li class="sellers-card">
@@ -375,8 +361,7 @@
                 src="./img/chocolate-fruits.jpg"
                 alt="fruits chocolate"
                 width="368"
-                height="464"
-              />
+                height="464" />
               <h3>CHOCOLATE WITH FRUITS</h3>
             </li>
             <li class="sellers-card">
@@ -384,8 +369,7 @@
                 src="./img/chocolate-dark.jpg"
                 alt="dark chocolate"
                 width="368"
-                height="464"
-              />
+                height="464" />
               <h3>DARK CHOCOLATE</h3>
             </li>
           </ul>
@@ -405,8 +389,7 @@
                 src="./img/victoria.png"
                 alt="Victoria client"
                 width="80"
-                height="80"
-              />
+                height="80" />
               <h3 class="client-name">Victoria Dobrzhanska</h3>
               <p class="client-review">
                 I love this chocolate bar. Perfect combination of light crispy
@@ -418,8 +401,7 @@
                 src="./img/nazar.png"
                 alt="Nazar client"
                 width="80"
-                height="80"
-              />
+                height="80" />
               <h3 class="client-name">Nazar Babenko</h3>
               <p class="client-review">
                 This chocolate confection is a delight! A delight! The wafer is
@@ -432,8 +414,7 @@
                 src="./img/olena.png"
                 alt="Olena client"
                 width="80"
-                height="80"
-              />
+                height="80" />
               <h3 class="client-name">Olena Kampusch</h3>
               <p class="client-review">
                 Chocolate is a family favourite treat. Love the delicious smooth
@@ -495,5 +476,7 @@
         </form>
       </div>
     </footer>
+
+    <!-- -- MODAL WINDOW -- -->
   </body>
 </html>
