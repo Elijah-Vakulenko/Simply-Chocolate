@@ -173,6 +173,12 @@ address {
   font-size: 14px;
 }
 
+.buy-now:hover,
+.buy-now:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
 .btn-him {
   border: 1px solid #fff;
   border-radius: 100px;
@@ -182,6 +188,12 @@ address {
   color: #fff;
   font-weight: 600;
   font-size: 14px;
+}
+
+.btn-him:hover,
+.btn-him:focus {
+  color: #fd9222;
+  border-color: #fd9222;
 }
 
 .scroll-down {
@@ -480,6 +492,12 @@ address {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+.review-btn:hover,
+.review-btn:focus {
+  color: #ffffff;
+  background-color: #fd9222;
 }
 
 /* <!-- FOOTER --> */
